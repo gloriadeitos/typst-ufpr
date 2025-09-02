@@ -59,7 +59,7 @@
         #year
       ])
     ],
-    background: image("capa_ufpr.png"),
+    background: image("ufpr_cover.png"),
     foreground: block(upper(title), inset: 3cm),
     margin: 2cm
   )
