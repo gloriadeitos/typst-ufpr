@@ -2,8 +2,7 @@
 
 A Typst template for academic documents following UFPR (Federal University of Paraná) formatting guidelines.
 
-#### Credits: @chrispdobb @gloriadeitos ~ Curitiba-PR, Brasil ~ 2025
-
+#### Credits: @chrispdobb (main developer) & @gloriadeitos ~ Curitiba-PR, Brasil ~ 2025
 ## 🔸Installation Instructions
 
 ### Installing Typst
