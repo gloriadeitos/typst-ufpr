@@ -4,7 +4,6 @@
   year: 2025,
   authors: ("Nome do Autor",),
   description: "Descrição",
-  advisors: ("Prof. Dr.",),
   doc
 ) = [
   #set page(
@@ -53,7 +52,7 @@
     #set text(size: 10pt)
     #it.supplement #counter(figure.where(kind: it.kind)).display()#it.caption.separator#upper(desc.trim())
     #it.body
-    Fonte: #source.trim().
+    FONTE: #source.trim().
     #v(1em)
   ]
 
@@ -88,12 +87,6 @@
           #set text(size: 10pt)
           #set par(leading: 0.5em)
           #description
-          \ \
-          #if advisors.len() == 1 [
-            Orientador: #advisors.first()
-          ] else [
-            Orientadores: // TODO
-          ]
         ]
       )
       #align(center)[
@@ -112,6 +105,11 @@
       ]
     ],
     margin: 2cm,
+  )
+
+  // Figure summary
+  #page(
+    [] // TODO
   )
   #doc
 ]
